@@ -1,10 +1,20 @@
-# Required for running unit tests
+#requirements.txt
+This file lists the dependencies required for the Password Strength Checker project.
+
+Contents:
+plaintext
+Copy code
 pytest==7.4.0
-
-
-Install Dependencies:
-Run the following command to install all the required packages:
+How to Use:
+To install the required dependencies, run the following command in your terminal:
 
 bash
-
+Copy code
 pip install -r requirements.txt
+Details:
+pytest==7.4.0: A testing framework used to validate the functionality of the password strength checker through unit tests.
+If additional dependencies are added to the project in the future, include them here in the format:
+
+plaintext
+Copy code
+<package_name>==<version>
